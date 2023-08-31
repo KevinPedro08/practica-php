@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    background-color: rgb(199, 249, 204);
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+th,td{
+    border: 1px solid;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset{
+    margin: 0% 40% 1% 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4f1ed ;
+    border-color: rgb(128, 237, 153);
+    border: 9px groove (internal value);
+    border-radius: 7px;
+    width: 400px
+}
+
+.footer{
+    background-color: rgb(56, 163, 165);
+    color: black;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -30px;
+}
+
+.nav{
+    background-color: rgb(56, 163, 165);
+    color: white;
+    position: sticky;
+    top: 0;
+    margin-left: -0px;
+    margin-right: -0px;
+    margin-top: -0px;
+    padding-bottom: 19px;
+    font-size: 30px;
+}
+
+.nav > a{
+    margin-left: 450px;
+}
+
+img{
+    border-radius: 200px;
+    margin-left: 30%;
+}
+
+.carousel-control-prev {
+    left: 25%;
+}
+
+.carousel-control-next {
+    right: 24%;
+}
